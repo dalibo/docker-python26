@@ -1,4 +1,4 @@
-NAME=dalibo/python2.6
+NAME=dalibo/python26
 
 build: slim
 

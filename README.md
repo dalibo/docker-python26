@@ -21,3 +21,15 @@ The image ships:
 - pip 9.0.3
 - setuptools 36.8.0
 - wheel 0.29
+
+
+## Example
+
+``` console
+$ docker run --rm -it dalibo/python2.6:slim
+root@01d46ada99fe:/# python --version
+Python 2.6.8
+root@01d46ada99fe:/# pip --version
+pip 9.0.3 from /usr/local/lib/python2.6/dist-packages (python 2.6)
+root@01d46ada99fe:/#
+```
